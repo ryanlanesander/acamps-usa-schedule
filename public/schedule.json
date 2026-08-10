@@ -1,0 +1,53 @@
+[
+  {
+    "day": "Wednesday, August 20",
+    "events": [
+      { "time": "2:00 PM - 4:00 PM", "title": "Check-in & Registration", "location": "Main Lodge" },
+      { "time": "4:30 PM - 5:30 PM", "title": "Opening Ceremony", "location": "Auditorium", "description": "Welcome and introduction to ACAMPS USA 2k26" },
+      { "time": "6:00 PM - 7:00 PM", "title": "Dinner", "location": "Dining Hall" },
+      { "time": "7:30 PM - 9:00 PM", "title": "Praise & Worship", "location": "Auditorium" },
+      { "time": "9:30 PM - 10:30 PM", "title": "Community Night", "location": "Campfire Area", "description": "Get to know your fellow campers" }
+    ]
+  },
+  {
+    "day": "Thursday, August 21",
+    "events": [
+      { "time": "7:00 AM - 7:45 AM", "title": "Morning Prayer", "location": "Chapel" },
+      { "time": "8:00 AM - 9:00 AM", "title": "Breakfast", "location": "Dining Hall" },
+      { "time": "9:30 AM - 11:00 AM", "title": "Talk 1: Hearts on Fire", "location": "Auditorium", "description": "Opening the heart to God's love" },
+      { "time": "11:15 AM - 12:15 PM", "title": "Small Group Discussion", "location": "Various Rooms" },
+      { "time": "12:30 PM - 1:30 PM", "title": "Lunch", "location": "Dining Hall" },
+      { "time": "2:00 PM - 4:00 PM", "title": "Free Time & Activities", "location": "Camp Grounds", "description": "Sports, swimming, hiking, and more" },
+      { "time": "4:30 PM - 5:30 PM", "title": "Workshop Sessions", "location": "Various Rooms" },
+      { "time": "6:00 PM - 7:00 PM", "title": "Dinner", "location": "Dining Hall" },
+      { "time": "7:30 PM - 9:00 PM", "title": "Praise & Worship + Talk 2", "location": "Auditorium" },
+      { "time": "9:30 PM - 10:30 PM", "title": "Adoration", "location": "Chapel" }
+    ]
+  },
+  {
+    "day": "Friday, August 22",
+    "events": [
+      { "time": "7:00 AM - 7:45 AM", "title": "Morning Prayer", "location": "Chapel" },
+      { "time": "8:00 AM - 9:00 AM", "title": "Breakfast", "location": "Dining Hall" },
+      { "time": "9:30 AM - 11:00 AM", "title": "Talk 3: Nothing's Off Limits", "location": "Auditorium", "description": "Surrendering everything to God" },
+      { "time": "11:15 AM - 12:15 PM", "title": "Small Group Discussion", "location": "Various Rooms" },
+      { "time": "12:30 PM - 1:30 PM", "title": "Lunch", "location": "Dining Hall" },
+      { "time": "2:00 PM - 4:00 PM", "title": "Free Time & Activities", "location": "Camp Grounds" },
+      { "time": "4:30 PM - 5:30 PM", "title": "Confession & Prayer Ministry", "location": "Chapel" },
+      { "time": "6:00 PM - 7:00 PM", "title": "Dinner", "location": "Dining Hall" },
+      { "time": "7:30 PM - 9:30 PM", "title": "Praise & Worship + Talk 4", "location": "Auditorium" },
+      { "time": "10:00 PM - 11:00 PM", "title": "Bonfire Night", "location": "Campfire Area" }
+    ]
+  },
+  {
+    "day": "Saturday, August 23",
+    "events": [
+      { "time": "7:00 AM - 7:45 AM", "title": "Morning Prayer", "location": "Chapel" },
+      { "time": "8:00 AM - 9:00 AM", "title": "Breakfast", "location": "Dining Hall" },
+      { "time": "9:30 AM - 11:00 AM", "title": "Talk 5: Sent Forth", "location": "Auditorium", "description": "Going out into the world on fire" },
+      { "time": "11:15 AM - 12:00 PM", "title": "Closing Mass", "location": "Auditorium" },
+      { "time": "12:30 PM - 1:30 PM", "title": "Lunch", "location": "Dining Hall" },
+      { "time": "2:00 PM - 3:00 PM", "title": "Closing Ceremony & Sendoff", "location": "Main Lodge" }
+    ]
+  }
+]

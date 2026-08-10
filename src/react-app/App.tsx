@@ -1,66 +1,79 @@
-// src/App.tsx
-
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import cloudflareLogo from "./assets/Cloudflare_Logo.svg";
-import honoLogo from "./assets/hono.svg";
+import { useEffect, useState } from "react";
 import "./App.css";
 
-function App() {
-	const [count, setCount] = useState(0);
-	const [name, setName] = useState("unknown");
+interface ScheduleEvent {
+  time: string;
+  title: string;
+  location: string;
+  description?: string;
+}
 
-	return (
-		<>
-			<div>
-				<a href="https://vite.dev" target="_blank">
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-				</a>
-				<a href="https://react.dev" target="_blank">
-					<img src={reactLogo} className="logo react" alt="React logo" />
-				</a>
-				<a href="https://hono.dev/" target="_blank">
-					<img src={honoLogo} className="logo cloudflare" alt="Hono logo" />
-				</a>
-				<a href="https://workers.cloudflare.com/" target="_blank">
-					<img
-						src={cloudflareLogo}
-						className="logo cloudflare"
-						alt="Cloudflare logo"
-					/>
-				</a>
-			</div>
-			<h1>Vite + React + Hono + Cloudflare</h1>
-			<div className="card">
-				<button
-					onClick={() => setCount((count) => count + 1)}
-					aria-label="increment"
-				>
-					count is {count}
-				</button>
-				<p>
-					Edit <code>src/App.tsx</code> and save to test HMR
-				</p>
-			</div>
-			<div className="card">
-				<button
-					onClick={() => {
-						fetch("/api/")
-							.then((res) => res.json() as Promise<{ name: string }>)
-							.then((data) => setName(data.name));
-					}}
-					aria-label="get name"
-				>
-					Name from API is: {name}
-				</button>
-				<p>
-					Edit <code>worker/index.ts</code> to change the name
-				</p>
-			</div>
-			<p className="read-the-docs">Click on the logos to learn more</p>
-		</>
-	);
+interface ScheduleDay {
+  day: string;
+  events: ScheduleEvent[];
+}
+
+function App() {
+  const [schedule, setSchedule] = useState<ScheduleDay[]>([]);
+  const [activeDay, setActiveDay] = useState(0);
+
+  useEffect(() => {
+    fetch("/schedule.json")
+      .then((res) => res.json())
+      .then((data) => setSchedule(data));
+  }, []);
+
+  return (
+    <div className="app">
+      <header className="header">
+        <img
+          src="https://github.com/user-attachments/assets/175d42de-4ec7-43c4-ba60-b60dfd45e218"
+          alt="ACAMPS USA 2k26"
+          className="logo"
+        />
+        <div className="header-info">
+          <h1>ACAMPS USA 2k26</h1>
+          <p className="subtitle">Hearts on Fire, Nothing's Off Limits</p>
+          <p className="details">August 20-23 • Camp Schodack, Nassau, NY</p>
+        </div>
+      </header>
+
+      <nav className="day-tabs">
+        {schedule.map((day, i) => (
+          <button
+            key={day.day}
+            className={`day-tab ${i === activeDay ? "active" : ""}`}
+            onClick={() => setActiveDay(i)}
+          >
+            {day.day}
+          </button>
+        ))}
+      </nav>
+
+      <main className="schedule">
+        {schedule[activeDay] && (
+          <div className="day-schedule">
+            {schedule[activeDay].events.map((event, i) => (
+              <div key={i} className="event-card">
+                <div className="event-time">{event.time}</div>
+                <div className="event-content">
+                  <h3 className="event-title">{event.title}</h3>
+                  <span className="event-location">📍 {event.location}</span>
+                  {event.description && (
+                    <p className="event-description">{event.description}</p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </main>
+
+      <footer className="footer">
+        <p>Shalom Catholic Community • ACAMPS USA 2k26</p>
+      </footer>
+    </div>
+  );
 }
 
 export default App;
