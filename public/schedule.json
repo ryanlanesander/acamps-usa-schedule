@@ -1,53 +1,70 @@
 [
   {
-    "day": "Wednesday, August 20",
+    "day": "Thursday, August 20",
     "events": [
-      { "time": "2:00 PM - 4:00 PM", "title": "Check-in & Registration", "location": "Main Lodge" },
-      { "time": "4:30 PM - 5:30 PM", "title": "Opening Ceremony", "location": "Auditorium", "description": "Welcome and introduction to ACAMPS USA 2k26" },
-      { "time": "6:00 PM - 7:00 PM", "title": "Dinner", "location": "Dining Hall" },
-      { "time": "7:30 PM - 9:00 PM", "title": "Praise & Worship", "location": "Auditorium" },
-      { "time": "9:30 PM - 10:30 PM", "title": "Community Night", "location": "Campfire Area", "description": "Get to know your fellow campers" }
+      { "time": "4:00 PM - 11:00 PM", "title": "Check-in", "location": "Training Center" },
+      { "time": "7:30 PM", "title": "Opening Mass", "location": "TBD" },
+      { "time": "8:20 PM", "title": "Guidelines", "location": "TBD" },
+      { "time": "8:30 PM", "title": "Dinner", "location": "Dining Hall" },
+      { "time": "9:00 PM - 10:30 PM", "title": "ACAMPS Country Night", "location": "Dining Hall" },
+      { "time": "10:30 PM", "title": "Wrap Up & Team Coordinators Meeting", "location": "Dining Hall" },
+      { "time": "11:00 PM", "title": "Lights Out" }
     ]
   },
   {
-    "day": "Thursday, August 21",
+    "day": "Friday, August 21",
     "events": [
-      { "time": "7:00 AM - 7:45 AM", "title": "Morning Prayer", "location": "Chapel" },
+      { "time": "7:00 AM", "title": "Wake Up Call" },
       { "time": "8:00 AM - 9:00 AM", "title": "Breakfast", "location": "Dining Hall" },
-      { "time": "9:30 AM - 11:00 AM", "title": "Talk 1: Hearts on Fire", "location": "Auditorium", "description": "Opening the heart to God's love" },
-      { "time": "11:15 AM - 12:15 PM", "title": "Small Group Discussion", "location": "Various Rooms" },
-      { "time": "12:30 PM - 1:30 PM", "title": "Lunch", "location": "Dining Hall" },
-      { "time": "2:00 PM - 4:00 PM", "title": "Free Time & Activities", "location": "Camp Grounds", "description": "Sports, swimming, hiking, and more" },
-      { "time": "4:30 PM - 5:30 PM", "title": "Workshop Sessions", "location": "Various Rooms" },
-      { "time": "6:00 PM - 7:00 PM", "title": "Dinner", "location": "Dining Hall" },
-      { "time": "7:30 PM - 9:00 PM", "title": "Praise & Worship + Talk 2", "location": "Auditorium" },
-      { "time": "9:30 PM - 10:30 PM", "title": "Adoration", "location": "Chapel" }
+      { "time": "9:00 AM", "title": "Praise and Worship", "location": "Gym" },
+      { "time": "10:00 AM", "title": "Formative Seminars", "location": "Various Locations", "description": "Newness Group (Gym), Growth Group (TBD), Yeshua Kids Group (Welcome Center Room 2)" },
+      { "time": "11:00 AM", "title": "Adoration of the Blessed Sacrament", "location": "Gym" },
+      { "time": "12:00 PM", "title": "Announcements & Sharing Groups", "location": "Gym" },
+      { "time": "12:30 PM - 2:00 PM", "title": "Lunch", "location": "Dining Hall" },
+      { "time": "1:30 PM", "title": "Free Time", "location": "Camp Grounds", "description": "Activities, sports, prayer, and counseling available" },
+      { "time": "3:00 PM", "title": "Tournaments & Family Sport Competitions", "location": "Camp Grounds", "description": "Games and sport competitions by Family; Snacks served 3:00–5:00 PM; Yeshua Kids (TBD)" },
+      { "time": "5:00 PM - 6:00 PM", "title": "Dinner", "location": "Dining Hall", "description": "Free time to shower and get ready for Mass" },
+      { "time": "6:15 PM", "title": "Holy Mass", "location": "TBD" },
+      { "time": "7:30 PM", "title": "Concert: The Scally Brothers", "location": "TBD" },
+      { "time": "8:30 PM - 10:00 PM", "title": "Party Time", "location": "TBD" },
+      { "time": "11:00 PM", "title": "Lights Out" }
     ]
   },
   {
-    "day": "Friday, August 22",
+    "day": "Saturday, August 22",
     "events": [
-      { "time": "7:00 AM - 7:45 AM", "title": "Morning Prayer", "location": "Chapel" },
-      { "time": "8:00 AM - 9:00 AM", "title": "Breakfast", "location": "Dining Hall" },
-      { "time": "9:30 AM - 11:00 AM", "title": "Talk 3: Nothing's Off Limits", "location": "Auditorium", "description": "Surrendering everything to God" },
-      { "time": "11:15 AM - 12:15 PM", "title": "Small Group Discussion", "location": "Various Rooms" },
-      { "time": "12:30 PM - 1:30 PM", "title": "Lunch", "location": "Dining Hall" },
-      { "time": "2:00 PM - 4:00 PM", "title": "Free Time & Activities", "location": "Camp Grounds" },
-      { "time": "4:30 PM - 5:30 PM", "title": "Confession & Prayer Ministry", "location": "Chapel" },
-      { "time": "6:00 PM - 7:00 PM", "title": "Dinner", "location": "Dining Hall" },
-      { "time": "7:30 PM - 9:30 PM", "title": "Praise & Worship + Talk 4", "location": "Auditorium" },
-      { "time": "10:00 PM - 11:00 PM", "title": "Bonfire Night", "location": "Campfire Area" }
+      { "time": "7:00 AM", "title": "Wake Up Call" },
+      { "time": "8:00 AM", "title": "Breakfast", "location": "Dining Hall" },
+      { "time": "9:00 AM", "title": "Praise and Worship", "location": "Gym" },
+      { "time": "10:00 AM", "title": "Formative Seminars", "location": "Various Locations", "description": "Newness Group (Gym), Growth Group (TBD), Yeshua Kids Group (Welcome Center Room 2)" },
+      { "time": "10:45 AM", "title": "Break" },
+      { "time": "11:00 AM", "title": "Adoration of the Blessed Sacrament & Healing Prayer", "location": "Gym" },
+      { "time": "12:00 PM", "title": "Sharing Groups", "location": "Gym" },
+      { "time": "12:30 PM - 2:00 PM", "title": "Lunch", "location": "Dining Hall" },
+      { "time": "1:30 PM", "title": "Free Time", "location": "Camp Grounds", "description": "Activities, sports, prayer, and counseling available" },
+      { "time": "3:30 PM", "title": "Games & Sport Competitions", "location": "TBD", "description": "Snacks served 3:30–5:30 PM" },
+      { "time": "5:30 PM", "title": "Free Time", "description": "Shower and get ready for Mass" },
+      { "time": "6:00 PM", "title": "Dinner" },
+      { "time": "7:30 PM", "title": "Holy Mass" },
+      { "time": "8:45 PM", "title": "Night Activity: ACAMPS Got Talent", "location": "TBD" },
+      { "time": "11:00 PM", "title": "Lights Out" },
+      { "time": "Late Night", "title": "Vigil for the Servants", "location": "Chapel" }
     ]
   },
   {
-    "day": "Saturday, August 23",
+    "day": "Sunday, August 23",
     "events": [
-      { "time": "7:00 AM - 7:45 AM", "title": "Morning Prayer", "location": "Chapel" },
-      { "time": "8:00 AM - 9:00 AM", "title": "Breakfast", "location": "Dining Hall" },
-      { "time": "9:30 AM - 11:00 AM", "title": "Talk 5: Sent Forth", "location": "Auditorium", "description": "Going out into the world on fire" },
-      { "time": "11:15 AM - 12:00 PM", "title": "Closing Mass", "location": "Auditorium" },
-      { "time": "12:30 PM - 1:30 PM", "title": "Lunch", "location": "Dining Hall" },
-      { "time": "2:00 PM - 3:00 PM", "title": "Closing Ceremony & Sendoff", "location": "Main Lodge" }
+      { "time": "7:00 AM", "title": "Wake Up Call" },
+      { "time": "8:00 AM", "title": "Breakfast", "location": "Dining Hall" },
+      { "time": "9:00 AM", "title": "Praise and Worship", "location": "Gym" },
+      { "time": "10:00 AM", "title": "Formative Seminars", "location": "Various Locations", "description": "Newness Group (Gym), Growth Group (TBD), Yeshua Kids Group (Welcome Center Room 2)" },
+      { "time": "11:00 AM", "title": "Effusion of the Holy Spirit", "location": "TBD" },
+      { "time": "12:00 PM", "title": "Sharing in Groups" },
+      { "time": "12:30 PM - 2:00 PM", "title": "Lunch" },
+      { "time": "1:00 PM", "title": "Check Out" },
+      { "time": "2:00 PM", "title": "Testimonies" },
+      { "time": "2:45 PM", "title": "Send Off Mass" },
+      { "time": "3:45 PM", "title": "Wrap Up & Winning Team Announced", "location": "TBD" }
     ]
   }
 ]
