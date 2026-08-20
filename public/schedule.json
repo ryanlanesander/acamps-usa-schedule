@@ -6,7 +6,7 @@
       { "time": "7:30 PM", "title": "Opening Mass", "location": "New Life Arena (The \"Garden\")", "category": "mass" },
       { "time": "8:20 PM", "title": "Guidelines", "location": "New Life Arena (The \"Garden\")" },
       { "time": "8:30 PM", "title": "Dinner", "location": "Dining Hall", "category": "meal" },
-      { "time": "9:00 PM", "title": "Acamps Goes Country", "location": "New Life Arena (The \"Garden\")" },
+      { "time": "9:00 PM", "title": "Acamps Goes Country", "location": "Dining Hall" },
       { "time": "10:30 PM", "title": "Wrap up" },
       { "time": "11:00 PM", "title": "Lights Out" }
     ]
