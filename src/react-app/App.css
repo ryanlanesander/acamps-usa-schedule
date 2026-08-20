@@ -183,6 +183,29 @@ body {
   line-height: 1.4;
 }
 
+.event-on-duty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+  min-width: 90px;
+  padding-top: 2px;
+}
+
+.on-duty-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #999;
+}
+
+.on-duty-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--blue-dark);
+}
+
 .map-container {
   display: flex;
   justify-content: center;

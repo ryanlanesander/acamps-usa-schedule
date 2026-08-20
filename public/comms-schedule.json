@@ -1,0 +1,445 @@
+[
+  {
+    "day": "Thursday, August 20",
+    "events": [
+      {
+        "time": "4:00 PM",
+        "title": "Check-in",
+        "location": "Welcoming Center",
+        "onDuty": [
+          "Xavier",
+          "Grace",
+          "Mauricio",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "7:30 PM",
+        "title": "Opening Mass",
+        "location": "New Life Arena (The \"Garden\")",
+        "category": "mass",
+        "onDuty": [
+          "Xavier",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "8:20 PM",
+        "title": "Guidelines",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+        ]
+      },
+      {
+        "time": "8:30 PM",
+        "title": "Dinner",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Mauricio",
+          "Grace"
+        ]
+      },
+      {
+        "time": "9:00 PM",
+        "title": "Acamps Goes Country",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Xavier",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "10:30 PM",
+        "title": "Wrap up",
+        "onDuty": [
+        ]
+      },
+      {
+        "time": "11:00 PM",
+        "title": "Lights Out",
+        "onDuty": [
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Friday, August 21",
+    "events": [
+      {
+        "time": "7:00 AM",
+        "title": "Wake up call",
+        "onDuty": [
+          "Mauricio",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "7:30 AM",
+        "title": "Breakfast",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Yara",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Praise and Worship",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Xavier",
+          "Yara"
+        ]
+      },
+      {
+        "time": "10:00 AM",
+        "title": "Talk: \"Newness\" Session",
+        "location": "New Life Arena (The \"Garden\")",
+        "description": "\"Growth\" Session (Art Studio Play House Room) • Yeshua Kids Group (Welcoming Center)",
+        "onDuty": [
+          "Grace",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Adoration of the Blessed Sacrament",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Mauricio",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "12:00 PM",
+        "title": "Announcements and sharing groups",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Xavier",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Lunch available until 2 pm",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Grace",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "1:30 PM",
+        "title": "All the activities and sports available, as well as prayer and counseling",
+        "onDuty": [
+          "Mauricio",
+          "Yara"
+        ]
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Games and sport competitions by Family",
+        "description": "Snacks will be served from 3 to 5 PM",
+        "onDuty": [
+          "Xavier",
+          "Grace"
+        ]
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Dinner",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Mauricio",
+          "Yara"
+        ]
+      },
+      {
+        "time": "6:15 PM",
+        "title": "Holy Mass",
+        "location": "New Life Arena (The \"Garden\")",
+        "category": "mass",
+        "onDuty": [
+          "Leibniz",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "7:30 PM",
+        "title": "Concert The Scally Brothers",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Xavier",
+          "Mauricio"
+        ]
+      },
+      {
+        "time": "8:30 PM",
+        "title": "Acamps Glow Party",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Grace",
+          "Yara"
+        ]
+      },
+      {
+        "time": "11:00 PM",
+        "title": "Wrap up and curfew",
+        "onDuty": [
+          "Leibniz",
+          "Xavier"
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Saturday, August 22",
+    "events": [
+      {
+        "time": "7:00 AM",
+        "title": "Wake up call",
+        "onDuty": [
+          "Rachel",
+          "Grace"
+        ]
+      },
+      {
+        "time": "7:30 AM",
+        "title": "Breakfast",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Mauricio",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Praise and worship",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Yara",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "10:00 AM",
+        "title": "Talk: \"Newness\" Session",
+        "location": "New Life Arena (The \"Garden\")",
+        "description": "\"Growth\" Session (Art Studio Play House Room) • Yeshua Kids Group (Art Studio Arts & Crafts Room)",
+        "onDuty": [
+          "Xavier",
+          "Yara"
+        ]
+      },
+      {
+        "time": "10:45 AM",
+        "title": "Break",
+        "onDuty": [
+          "Grace",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Adoration of the Blessed Sacrament, Healing Prayer",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Mauricio",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "12:00 PM",
+        "title": "Sharing groups",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Xavier",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Lunch available until 2 pm",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Grace",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "1:30 PM",
+        "title": "All the activities and sports available, as well as prayer and counseling",
+        "onDuty": [
+          "Mauricio",
+          "Yara"
+        ]
+      },
+      {
+        "time": "3:30 PM",
+        "title": "Games and sport competitions by Family",
+        "description": "Snacks will be served from 3:30 to 5:30 PM",
+        "onDuty": [
+          "Xavier",
+          "Grace"
+        ]
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Free time to shower and get ready for Mass",
+        "onDuty": [
+          "Mauricio",
+          "Yara"
+        ]
+      },
+      {
+        "time": "6:00 PM",
+        "title": "Dinner",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Leibniz",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "7:30 PM",
+        "title": "Holy Mass",
+        "location": "New Life Arena (The \"Garden\")",
+        "category": "mass",
+        "onDuty": [
+          "Xavier",
+          "Mauricio"
+        ]
+      },
+      {
+        "time": "8:45 PM",
+        "title": "Acamps Got Talent",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Grace",
+          "Yara"
+        ]
+      },
+      {
+        "time": "11:00 PM",
+        "title": "Wrap up and curfew",
+        "onDuty": [
+          "Leibniz",
+          "Xavier"
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Sunday, August 23",
+    "events": [
+      {
+        "time": "7:00 AM",
+        "title": "Wake up call",
+        "onDuty": [
+          "Rachel",
+          "Grace"
+        ]
+      },
+      {
+        "time": "7:30 AM",
+        "title": "Breakfast",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Mauricio",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "9:00 AM",
+        "title": "Praise and worship",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Yara",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "10:00 AM",
+        "title": "Talk: \"Newness\" Session",
+        "location": "New Life Arena (The \"Garden\")",
+        "description": "\"Growth\" Session (Art Studio Play House Room) • Yeshua Kids Group (Art Studio Arts & Crafts Room)",
+        "onDuty": [
+          "Xavier",
+          "Yara"
+        ]
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Special Prayer: Outpouring of the Holy Spirit",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Grace",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "12:00 PM",
+        "title": "Sharing in groups",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Mauricio",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Lunch available until 2 pm",
+        "location": "Dining Hall",
+        "category": "meal",
+        "onDuty": [
+          "Xavier",
+          "Leibniz"
+        ]
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Check Out",
+        "onDuty": [
+          "Grace",
+          "Rachel"
+        ]
+      },
+      {
+        "time": "2:00 PM",
+        "title": "Testimonies",
+        "location": "New Life Arena (The \"Garden\")",
+        "onDuty": [
+          "Mauricio",
+          "Yara"
+        ]
+      },
+      {
+        "time": "2:45 PM",
+        "title": "Send off Mass",
+        "location": "New Life Arena (The \"Garden\")",
+        "category": "mass",
+        "onDuty": [
+          "Xavier",
+          "Grace"
+        ]
+      },
+      {
+        "time": "3:45 PM",
+        "title": "Wrap up moment",
+        "description": "Winning team announced!",
+        "onDuty": [
+          "Mauricio",
+          "Yara"
+        ]
+      }
+    ]
+  }
+]
