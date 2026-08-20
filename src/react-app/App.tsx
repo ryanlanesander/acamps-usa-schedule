@@ -4,8 +4,9 @@ import "./App.css";
 interface ScheduleEvent {
   time: string;
   title: string;
-  location: string;
+  location?: string;
   description?: string;
+  category?: "meal" | "mass";
 }
 
 interface ScheduleDay {
@@ -13,9 +14,20 @@ interface ScheduleDay {
   events: ScheduleEvent[];
 }
 
+function locationClass(location?: string): string {
+  if (!location) return "";
+  if (location.includes("New Life Arena")) return "event-card--arena";
+  if (location.includes("Dining Hall")) return "event-card--dining";
+  if (location.includes("Arts & Crafts")) return "event-card--arts-crafts";
+  if (location.includes("Play House")) return "event-card--play-house";
+  if (location.includes("Welcoming Center")) return "event-card--welcoming";
+  return "";
+}
+
 function App() {
   const [schedule, setSchedule] = useState<ScheduleDay[]>([]);
   const [activeDay, setActiveDay] = useState(0);
+  const [showMap, setShowMap] = useState(false);
 
   useEffect(() => {
     fetch("/schedule.json")
@@ -42,23 +54,33 @@ function App() {
         {schedule.map((day, i) => (
           <button
             key={day.day}
-            className={`day-tab ${i === activeDay ? "active" : ""}`}
-            onClick={() => setActiveDay(i)}
+            className={`day-tab ${!showMap && i === activeDay ? "active" : ""}`}
+            onClick={() => { setShowMap(false); setActiveDay(i); }}
           >
             {day.day}
           </button>
         ))}
+        <button
+          className={`day-tab ${showMap ? "active" : ""}`}
+          onClick={() => setShowMap(true)}
+        >
+          🗺️ Map
+        </button>
       </nav>
 
       <main className="schedule">
-        {schedule[activeDay] && (
+        {showMap ? (
+          <div className="map-container">
+            <img src="/ACAMPS-2026-Camp-Map.jpeg" alt="Camp Schodack Map" className="map-image" />
+          </div>
+        ) : schedule[activeDay] && (
           <div className="day-schedule">
             {schedule[activeDay].events.map((event, i) => (
-              <div key={i} className="event-card">
+              <div key={i} className={`event-card ${locationClass(event.location)}`}>
                 <div className="event-time">{event.time}</div>
                 <div className="event-content">
                   <h3 className="event-title">{event.title}</h3>
-                  <span className="event-location">📍 {event.location}</span>
+                  {event.location && <span className="event-location">📍 {event.location}</span>}
                   {event.description && (
                     <p className="event-description">{event.description}</p>
                   )}

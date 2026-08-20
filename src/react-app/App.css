@@ -126,6 +126,32 @@ body {
   box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 
+/* Location colors matching the image color key */
+.event-card--arena {
+  background: #fff4f2;
+  border-left-color: #e84c1a;
+}
+
+.event-card--dining {
+  background: #f0fdf4;
+  border-left-color: #16a34a;
+}
+
+.event-card--arts-crafts {
+  background: #eff6ff;
+  border-left-color: #1565c0;
+}
+
+.event-card--play-house {
+  background: #faf5ff;
+  border-left-color: #7c3aed;
+}
+
+.event-card--welcoming {
+  background: #f0fdff;
+  border-left-color: #0891b2;
+}
+
 .event-time {
   font-size: 0.85rem;
   font-weight: 700;
@@ -155,6 +181,19 @@ body {
   font-size: 0.9rem;
   color: #555;
   line-height: 1.4;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.map-image {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
 .footer {
