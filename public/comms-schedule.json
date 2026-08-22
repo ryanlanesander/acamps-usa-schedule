@@ -203,8 +203,7 @@
         "time": "7:00 AM",
         "title": "Wake up call",
         "onDuty": [
-          "Rachel",
-          "Grace"
+          
         ]
       },
       {
@@ -213,8 +212,6 @@
         "location": "Dining Hall",
         "category": "meal",
         "onDuty": [
-          "Mauricio",
-          "Leibniz"
         ]
       },
       {
@@ -222,8 +219,8 @@
         "title": "Praise and worship",
         "location": "New Life Arena (The \"Garden\")",
         "onDuty": [
-          "Yara",
-          "Rachel"
+          "Grace",
+          "Xavier"
         ]
       },
       {
@@ -232,7 +229,7 @@
         "location": "New Life Arena (The \"Garden\")",
         "description": "\"Growth\" Session (Art Studio Play House Room) • Yeshua Kids Group (Art Studio Arts & Crafts Room)",
         "onDuty": [
-          "Xavier",
+          "Mauricio",
           "Yara"
         ]
       },
@@ -240,8 +237,6 @@
         "time": "10:45 AM",
         "title": "Break",
         "onDuty": [
-          "Grace",
-          "Leibniz"
         ]
       },
       {
@@ -249,8 +244,8 @@
         "title": "Adoration of the Blessed Sacrament, Healing Prayer",
         "location": "New Life Arena (The \"Garden\")",
         "onDuty": [
-          "Mauricio",
-          "Rachel"
+          "Leibniz",
+          "Xavier"
         ]
       },
       {
@@ -258,8 +253,6 @@
         "title": "Sharing groups",
         "location": "New Life Arena (The \"Garden\")",
         "onDuty": [
-          "Xavier",
-          "Leibniz"
         ]
       },
       {
@@ -268,16 +261,13 @@
         "location": "Dining Hall",
         "category": "meal",
         "onDuty": [
-          "Grace",
-          "Rachel"
         ]
       },
       {
         "time": "1:30 PM",
         "title": "All the activities and sports available, as well as prayer and counseling",
         "onDuty": [
-          "Mauricio",
-          "Yara"
+          "Everybody, but enjoy too!!"
         ]
       },
       {
@@ -285,16 +275,13 @@
         "title": "Games and sport competitions by Family",
         "description": "Snacks will be served from 3:30 to 5:30 PM",
         "onDuty": [
-          "Xavier",
-          "Grace"
+         "Everybody, but enjoy too!!"
         ]
       },
       {
         "time": "5:30 PM",
         "title": "Free time to shower and get ready for Mass",
         "onDuty": [
-          "Mauricio",
-          "Yara"
         ]
       },
       {
@@ -303,7 +290,7 @@
         "location": "Dining Hall",
         "category": "meal",
         "onDuty": [
-          "Leibniz",
+          "Yara",
           "Rachel"
         ]
       },
@@ -322,16 +309,14 @@
         "title": "Acamps Got Talent",
         "location": "New Life Arena (The \"Garden\")",
         "onDuty": [
-          "Grace",
-          "Yara"
+          "Mauricio",
+          "Leibniz"
         ]
       },
       {
         "time": "11:00 PM",
         "title": "Wrap up and curfew",
         "onDuty": [
-          "Leibniz",
-          "Xavier"
         ]
       }
     ]
